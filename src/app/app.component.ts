@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CourseComponent} from './course/course.component';
 import { FavoriteChangedEventArgs } from './favorite/favorite.component';
 import { HeartChangedEventArgs } from './like/like.component';
 @Component({
@@ -15,6 +16,12 @@ export class AppComponent {
       body:'Here is the body of a tweet...',
       isLiked:false,
       likesCount:0
+  }
+  task={
+      title:'Review Application',
+      assignee:{
+          name:'John Smith'
+      }
   }
   onHeartChanged(eventAr : HeartChangedEventArgs){
       console.log(eventAr);
