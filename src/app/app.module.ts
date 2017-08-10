@@ -5,14 +5,20 @@ import {CoursesComponent} from './courses.component';
 import { CoursesService } from './courses.service';
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
-import { SummaryPipe } from './summary.pipe'
+import { SummaryPipe } from './summary.pipe';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     CourseComponent,
-    SummaryPipe
+    SummaryPipe,
+    FavoriteComponent,
+    PanelComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
