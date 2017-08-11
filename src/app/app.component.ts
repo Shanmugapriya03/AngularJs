@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CourseComponent} from './course/course.component';
 import { FavoriteChangedEventArgs } from './favorite/favorite.component';
 import { HeartChangedEventArgs } from './like/like.component';
 @Component({
